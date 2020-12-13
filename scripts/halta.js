@@ -1,5 +1,5 @@
 Events.on(ClientLoadEvent, () => {
-    const halta = new Planet("halta", Planets.serpulo, 3, 1.8);
+    const halta = new Planet("halta", Planets.sun, 3, 1.8);
     halta.generator = new SerpuloPlanetGenerator();
     halta.mesh = new HexMesh(
       halta, 7,
