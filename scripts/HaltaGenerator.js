@@ -1,1 +1,1 @@
-HaltaPlanetGenerator  new PlanetGenerator("HaltaPlanetGenerator");
+haltaPlanetGenerator  new PlanetGenerator("haltaPlanetGenerator");
