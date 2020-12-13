@@ -24,5 +24,5 @@ Events.on(ClientLoadEvent, () => {
     halta.atmosphereColor = Color.valueOf("0b4e57FF");
     halta.atmosphereRadIn = 0.04;
     halta.atmosphereRadOut = 0.02;
-    halta.localizedName = "halta";
+    halta.localizedName = "Halta";
 }); 
