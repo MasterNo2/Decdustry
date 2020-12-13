@@ -7,12 +7,12 @@ Events.on(ClientLoadEvent, () => {
       2.9 ,
       
     //detalles,none,none,none,none,none,brillo
-      Color.valueOf("faffff"),
-      Color.valueOf("dee3e3"),
-      Color.valueOf("d0d9d9"),
-      Color.valueOf("e6ebeb"),
-      Color.valueOf("cbd1d1"),
-      Color.valueOf("d1e0e0")
+      Color.valueOf("faffff80"),
+      Color.valueOf("dee3e380"),
+      Color.valueOf("d0d9d980"),
+      Color.valueOf("e6ebeb80"),
+      Color.valueOf("cbd1d180"),
+      Color.valueOf("d1e0e080")
 
 
     );
@@ -23,7 +23,7 @@ Events.on(ClientLoadEvent, () => {
     halta.radius = 3;
     halta.accessible = false;
     halta.hasAtmosphere = true;
-    halta.atmosphereColor = Color.valueOf("9c2710");
+    halta.atmosphereColor = Color.valueOf("9c271080");
     halta.atmosphereRadIn = 0.05;
     halta.atmosphereRadOut = 0.03;
     halta.localizedName = "Halta";
