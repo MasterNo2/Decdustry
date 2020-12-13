@@ -2,7 +2,7 @@ Events.on(ClientLoadEvent, () => {
     const Zacar = new Planet("Zacar", Planets.sun, 2, 2);
     Zacar.generator = new SerpuloPlanetGenerator();
     Zacar.mesh = new SunMesh(
-      Romtir, 7,
+      Zacar, 7,
       1, 0.7, 1.8, 0.7 , 1 ,
       2.9 ,
       
