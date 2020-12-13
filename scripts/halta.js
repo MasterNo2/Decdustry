@@ -14,7 +14,7 @@ Events.on(ClientLoadEvent, () => {
       Color.valueOf("cbd1d1FF"),
       Color.valueOf("d1e0e0FF")
     );
-    halta.orbitRadius = 25.75;
+    halta.orbitRadius = 42.75;
     halta.orbitTime = 30;
     halta.rotateTime = 20;
     halta.bloom = true;
