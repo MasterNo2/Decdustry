@@ -2,7 +2,7 @@ Events.on(ClientLoadEvent, () => {
     const Eto = new Planet("Eto", Planets.nati, 1, 1);
     Eto.generator = new SerpuloPlanetGenerator();
     Eto.mesh = new SunMesh(
-      Romtir, 7,
+      Eto, 7,
       1, 0.7, 1.8, 0.7,1,
       2.9,
       
