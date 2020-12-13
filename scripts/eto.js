@@ -14,7 +14,7 @@ Events.on(ClientLoadEvent, () => {
       Color.valueOf("e30983"),
       Color.valueOf("b02757FF")
     );
-    Eto.orbitRadius = 8;
+    Eto.orbitRadius = 64;
     Eto.orbitTime = 30;
     Eto.rotateTime = 20;
     Eto.bloom = true;
