@@ -1,0 +1,1 @@
+RomtirPlanetGenerator  new PlanetGenerator("RomtirPlanetGenerator");
