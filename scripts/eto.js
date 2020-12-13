@@ -1,5 +1,5 @@
 Events.on(ClientLoadEvent, () => {
-    const Eto = new Planet("Eto", Planets.nati, 1, 1);
+    const Eto = new Planet("Eto", Planets.sun, 1, 1);
     Eto.generator = new SerpuloPlanetGenerator();
     Eto.mesh = new SunMesh(
       Eto, 7,
