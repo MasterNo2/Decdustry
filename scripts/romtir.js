@@ -14,7 +14,7 @@ Events.on(ClientLoadEvent, () => {
       Color.valueOf("3b7487"),
       Color.valueOf("74c4cf")
     );
-    Romtir.orbitRadius = 12;
+    Romtir.orbitRadius = 25;
     Romtir.orbitTime = 30;
     Romtir.rotateTime = 20;
     Romtir.bloom = true;
