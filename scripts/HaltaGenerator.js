@@ -1,0 +1,1 @@
+HaltaPlanetGenerator  new PlanetGenerator("HaltaPlanetGenerator");
