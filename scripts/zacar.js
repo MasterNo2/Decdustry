@@ -2,9 +2,9 @@ Events.on(ClientLoadEvent, () => {
     const Zacar = new Planet("Zacar", Planets.sun, 2, 2);
     Zacar.generator = new SerpuloPlanetGenerator();
     Zacar.mesh = new SunMesh(
-      Romtir, 14,
-      2, 1.4, 3.6, 1.4 , 2 ,
-      5.8 ,
+      Romtir, 7,
+      1, 0.7, 1.8, 0.7 , 1 ,
+      2.9 ,
       
     //detalles,none,none,none,none,none,brillo
       Color.valueOf("d67856"),
