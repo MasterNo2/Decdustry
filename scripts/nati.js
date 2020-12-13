@@ -1,5 +1,5 @@
 Events.on(ClientLoadEvent, () => {
-    const nati = new Planet("nati", Planets.halta, 3, 0.9);
+    const nati = new Planet("nati", Planets.sun, 3, 0.9);
     nati.generator = new SerpuloPlanetGenerator();
     nati.mesh = new HexMesh(sarpa, 2);
     nati.orbitRadius = 4.75;
