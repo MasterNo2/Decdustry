@@ -1,30 +1,28 @@
 Events.on(ClientLoadEvent, () => {
-    const halta = new Planet("Halta", Planets.sun, 2, 2);
+    const halta = new Planet("halta", Planets.sun, 1, 1);
     halta.generator = new SerpuloPlanetGenerator();
     halta.mesh = new SunMesh(
-      halta, 7,
-      1, 0.7, 1.8, 0.7 , 1 ,
-      2.9 ,
+      Romtir, 7,
+      1, 0.7, 1.8, 0.7,1,
+      2.9,
       
     //detalles,none,none,none,none,none,brillo
-      Color.valueOf("faffff"),
-      Color.valueOf("dee3e3"),
-      Color.valueOf("d0d9d9"),
-      Color.valueOf("e6ebeb"),
-      Color.valueOf("cbd1d1"),
-      Color.valueOf("d1e0e0")
-
-
+      Color.valueOf("faffffFF"),
+      Color.valueOf("dee3e3FF"),
+      Color.valueOf("d0d9d9FF"),
+      Color.valueOf("e6ebebFF"),
+      Color.valueOf("cbd1d1FF"),
+      Color.valueOf("d1e0e0FF")
     );
-    halta.orbitRadius = 24;
-    halta.orbitTime = 60;
-    halta.rotateTime = 40;
+    halta.orbitRadius = 10;
+    halta.orbitTime = 30;
+    halta.rotateTime = 20;
     halta.bloom = true;
-    halta.radius = 3;
+    halta.radius = 4;
     halta.accessible = false;
     halta.hasAtmosphere = true;
-    halta.atmosphereColor = Color.valueOf("9c2710");
-    halta.atmosphereRadIn = 0.05;
-    halta.atmosphereRadOut = 0.03;
-    halta.localizedName = "Halta";
+    halta.atmosphereColor = Color.valueOf("0b4e57FF");
+    halta.atmosphereRadIn = 0.04;
+    halta.atmosphereRadOut = 0.02;
+    halta.localizedName = "halta";
 }); 
