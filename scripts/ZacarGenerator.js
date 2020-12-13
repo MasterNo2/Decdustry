@@ -1,0 +1,1 @@
+ZacarPlanetGenerator  new PlanetGenerator("ZacarPlanetGenerator");
