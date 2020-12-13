@@ -2,7 +2,7 @@ Events.on(ClientLoadEvent, () => {
     const Romtir = new Planet("Romtir", Planets.sun, 1, 1);
     Romtir.generator = new SerpuloPlanetGenerator();
     Romtir.mesh = new SunMesh(
-      Starion, 7,
+      Romtir, 7,
       1, 0.7, 1.8, 0.7,1,
       2.9,
       
