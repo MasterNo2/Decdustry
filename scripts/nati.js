@@ -12,5 +12,5 @@ Events.on(ClientLoadEvent, () => {
     nati.atmosphereColor = Color.valueOf("21169e");
     nati.atmosphereRadIn = 0.52;
     nati.atmosphereRadOut = 0.525;
-    nati.localizedName = "natai";
+    nati.localizedName = "Natai";
 });
