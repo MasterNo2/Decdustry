@@ -4,5 +4,6 @@
 "author": "MasterNo2",
 "description": "A mod purely for decoration. Not really any functionallity. Adding more in the future. Thanks to Pankiwi for the planets.",
 "version": "beta5.3",
-"minGameVersion": "121"
+"minGameVersion": "121",
+"hidden": true
 }
